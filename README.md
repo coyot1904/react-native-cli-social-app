@@ -8,7 +8,7 @@
 </p>
 ---
 
-# React Native Project
+# Social Media App Project
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
@@ -24,8 +24,26 @@ To start the Metro dev server, run the following command from the root of your R
 
 ```sh
 # Using npm
-npm start
+npm install
 
 # OR using Yarn
-yarn start
+yarn install
+```
+
+### Step 2: IOS installing Cocopods
+
+```sh
+# Using npm
+cd ios && pod install && cd ..
+
+```
+
+### Step 3: Run app
+
+```sh
+# Using npm
+npx react-native run-ios
+
+# OR using Yarn
+npx react-native run-android
 ```
